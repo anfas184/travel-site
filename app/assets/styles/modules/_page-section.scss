@@ -1,0 +1,14 @@
+.page-section {
+    padding: 1.2rem 0;
+
+    @include respond(at800) {
+        padding: 4.5rem 0;
+    }
+
+}
+
+
+.page-section__blue {
+    background-color: $mainBlue;
+    color: #fff;
+}
