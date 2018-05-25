@@ -1,8 +1,8 @@
 .generic-content-container {
 	p {
-		line-height: 1.45;
+		line-height: 1.55;
 		margin: 0 0 1.8rem 0;
-		font-weight: 300;
+		font-weight: 400;
 
 		@include respond(atSmall) {
 			font-size: 1.125rem;
