@@ -6,5 +6,16 @@ $(document).ready(function () {
 		$(".site-header__menu-icon").toggleClass("site-header__menu-icon--close-x");
 
 	});
+	
+	//reveal header on scroll
+
 
 });
+
+
+
+
+
+
+
+
