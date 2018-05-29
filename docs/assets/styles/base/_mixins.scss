@@ -1,0 +1,42 @@
+
+@mixin respond($break-point){
+    
+    @if ($break-point == at530){
+        @media (min-width:530px)  { @content }; //530px
+    }
+    
+    @if ($break-point == at800){
+        @media (min-width:800px)  { @content }; //800px
+    }
+    
+    @if ($break-point == at1200){
+        @media (min-width: 1010px)  { @content }; //1200px
+    }
+      @if ($break-point == atSmall){
+        @media (min-width:530px)  { @content }; //530px
+    }
+    
+    @if ($break-point == atMedium){
+        @media (min-width:800px)  { @content }; //800px
+    }
+    
+    @if ($break-point == atLarge){
+        @media (min-width: 1010px)  { @content }; //1200px
+    }
+    
+}
+
+
+@mixin clearfix{
+     &::after{
+        content: '';
+        clear: both;
+        display: table;        
+    }
+}
+
+
+
+
+
+
