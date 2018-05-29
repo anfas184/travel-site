@@ -563,14 +563,14 @@ a {
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: 0;
+  opacity: .1;
   visibility: hidden;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  transition: all .3s ease-out; }
+  -webkit-transition: all .31s ease-out;
+  -o-transition: all .31s ease-out;
+  transition: all .31s ease-out; }
   .modal--is-visible {
     opacity: 1;
     visibility: visible;

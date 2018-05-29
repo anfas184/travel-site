@@ -7,10 +7,10 @@
 	bottom: 0;
 	right: 0;
 	left: 0;
-	opacity: 0;
+	opacity: .1;
 	visibility: hidden;
 	transform: scale(1.2);
-	transition: all .3s ease-out;
+	transition: all .31s ease-out;
 
 
 	&--is-visible{
