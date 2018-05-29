@@ -558,11 +558,11 @@ a {
   position: fixed;
   z-index: 10;
   background-color: white;
-  color: #000;
+  color: black;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
+  left: 0;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(1.2);
@@ -588,7 +588,7 @@ a {
     text-align: center;
     font-size: 1.3rem;
     font-weight: 300;
-    line-height: 1.65; }
+    line-height: 1.66; }
   .modal__close {
     position: absolute;
     top: 15px;
