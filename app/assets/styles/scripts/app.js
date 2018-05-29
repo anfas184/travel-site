@@ -81,6 +81,7 @@ $(document).ready(function () {
 		});
 
 
+	
 	//	FOR THE MODAL BOX OPENING
 	$('.open-modal').click(function () {
 		$('.modal').addClass('modal--is-visible')
